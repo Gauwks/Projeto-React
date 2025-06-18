@@ -1,7 +1,15 @@
+import Container from '../../Container'
+import Header from '../../header'
+import Footer from '../../Footer'
+
 function Contatos() {
   return (
     <>
-      <h1>Contatos</h1>
+      <Header />
+      <Container>
+        <h2>Contatos</h2>
+      </Container>
+      <Footer />
     </>
   );
 }

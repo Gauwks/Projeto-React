@@ -1,7 +1,15 @@
+import Container from '../../Container'
+import Header from '../../header'
+import Footer from '../../Footer'
+
 function Sobre() {
   return (
     <>
-      <h1>Sobre</h1>
+      <Header />
+      <Container>
+        <h2>Sobre</h2>
+      </Container>
+      <Footer />
     </>
   );
 }

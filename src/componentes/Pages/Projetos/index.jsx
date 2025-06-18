@@ -1,9 +1,18 @@
+import Container from '../../Container'
+import Header from '../../header'
+import Footer from '../../Footer'
+
 function Projetos(){
     return(
         <>
-        <h1>Projetos</h1>
+        <Header />
+        <Container>
+            <h2>Projetos</h2>
+        </Container>
+        <Footer />
         </>
     )
 }
 
 export default Projetos
+
