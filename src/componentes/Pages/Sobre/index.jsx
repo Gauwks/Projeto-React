@@ -6,7 +6,7 @@ function Sobre() {
     
       <Container>
         <h2>Sobre</h2>
-        <h3>I-II-I</h3>
+        <h3>I-II-I!</h3>
         <p>Somos futuros desenvolvedores Full Stack, atualmente cursando o 2° ano do Ensino Médio Integrado em Desenvolvimento de Sistemas da Etec Peruíbe. <br />
           Desde que ingressamos nesta unidade, pudemos aprender diversas coisas e tecnologias, saindo do 1° já qualificados como Auxiliar em Desenvolvimento de Sistemas. <br /> <br />
 
