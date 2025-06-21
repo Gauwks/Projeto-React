@@ -1,9 +1,15 @@
 import Container from '../../Container'
+<<<<<<< HEAD
 
+=======
+import Header from '../../header'
+import Footer from '../../Footer'
+>>>>>>> 8c6c34483d9aadc67072b1c268fd16a4f5fef3f7
 
 function Projetos(){
     return(
         <>
+<<<<<<< HEAD
         
         <Container>
             <h2>Projetos</h2> 
@@ -22,6 +28,13 @@ function Projetos(){
 
         </Container>
        
+=======
+        <Header />
+        <Container>
+            <h2>Projetos</h2>
+        </Container>
+        <Footer />
+>>>>>>> 8c6c34483d9aadc67072b1c268fd16a4f5fef3f7
         </>
     )
 }
