@@ -3,6 +3,7 @@ import imagemHome from '../../../assets/img1.svg'
 import imagemHome2 from '../../../assets/img2.svg'
 import Container from '../../Container'
 import styles from './Home.module.css'
+import LikesSection from '../../LikesSection/LikesSection';
 
 function Home() {
     return (
@@ -10,8 +11,10 @@ function Home() {
             <section className={styles.home}>
                 <div className={styles.apresentacao}>    
                     <p>
-                    Olá, somos <br />
-                    <span>Seus Amiguinhos, Elizabete e Maria Clara</span> <br />
+                    Olá, somos   
+
+                    <span>Seus Amiguinhos, Elizabete e Maria Clara</span>   
+
                     Devs Full Stack
                   </p>
                   <Link to="/sobre" className={`${styles.btn} ${styles.btn_red}`}>
@@ -26,8 +29,8 @@ function Home() {
                   <img className="img-home" src={imagemHome2} alt="Imagem da Home" />
                 </figure>
             </section>
+            <LikesSection />
         </Container>
     )
 }
 export default Home
-
